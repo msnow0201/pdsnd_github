@@ -14,4 +14,5 @@ bikeshare.py
 README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I used a cheat sheet from GitLab
+https://about.gitlab.com/images/press/git-cheat-sheet.pdf
