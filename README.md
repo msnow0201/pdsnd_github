@@ -16,3 +16,5 @@ README.md
 ### Credits
 I used a cheat sheet from GitLab
 https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+
+Here is an additional change for task #3 
