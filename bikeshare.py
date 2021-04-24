@@ -34,6 +34,8 @@ def get_filters():
     print('Data is available for Chicago, New York City, and Washington.')
 
     # get user input for city(chicago, new york city, washington).
+    # Validate city against global table
+    # Exit if quit is entered
     while gf_city.lower != 'quit':
         print('Enter one of the 3 cities below. '
               'You can enter quit if you would like to exit the process.')
