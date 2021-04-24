@@ -135,12 +135,12 @@ def time_stats(df):
 
     # display the most common month
     popular_month = df['month'].mode()[0]
-    print('the most popular month to rent is: ',
+    print('the most popular rental month is: ',
           months[popular_month - 1].title())
 
     # display the most common day of week
     popular_day = df['day_of_week'].mode()[0]
-    print('the most popular day of the week to rent is: ',
+    print('the most popular rental day of the week is: ',
           popular_day.title())
 
     # display the most common start hour
@@ -150,7 +150,7 @@ def time_stats(df):
 
     # find the most common hour(from 0 to 23)
     popular_hour = df['hour'].mode()[0]
-    print('the most popular hour to rent is: ', popular_hour)
+    print('the most popular rental hour is: ', popular_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
