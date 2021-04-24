@@ -122,7 +122,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day]
 
     trip_count = df.shape[0]
-    print(trip_count, 'trips were selected for evaluation')
+    print(trip_count, 'trips will be evaluated')
 
     return df
 
